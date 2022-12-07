@@ -1,7 +1,10 @@
+import React from "react";
+import {HTag} from "../components";
+
 export default function Home(): JSX.Element {
     return (
         <div>
-            asfdf
+            <HTag tag='h1'>Текст</HTag>
         </div>
     );
 }
